@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #353535;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  #search-bar-container,
+  #filter-bar-container {
+    margin-bottom: 1rem;
+  }
+  
+  .elixirs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .elixir-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.75rem;
+    cursor: pointer;
+    max-width: 200px;
+  }
+  
+  .elixir-card:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .elixir-details {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: gray;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
