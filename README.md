@@ -21,7 +21,23 @@ The project uses modern ES6+ features (classes, modules, async/await) and the Fe
 
 ## Project Structure
 
-. ├── index.html # Main HTML file ├── app.js # Main application logic ├── styles/ │ └── styles.css # Styling ├── services/ │ └── api.js # API communication (fetching data) ├── components/ │ ├── ElixirsList.js # Component for listing elixirs │ ├── ElixirDetails.js # Component for showing detailed info │ ├── SearchBar.js # Component for searching by name │ └── FilterBar.js # Component for filtering by difficulty
+├── index.html # Main HTML file 
+├── app.js # Main application logic 
+├── styles/ 
+│ 
+└── styles.css # Styling 
+├── services/ 
+│ 
+└── api.js # API communication (fetching data) 
+├── components/ 
+│ 
+├── ElixirsList.js # Component for listing elixirs 
+│ 
+├── ElixirDetails.js # Component for showing detailed info 
+│ 
+├── SearchBar.js # Component for searching by name 
+│ 
+└── FilterBar.js # Component for filtering by difficulty
 
 ## API Reference
 
